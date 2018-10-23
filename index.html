@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Quero Lids</title>
+</head>
+<body>
+ <h1>Quero Lids - Cadastro</h1>
+ <form class="" action="index.html" method="POST">
+     <fieldset>
+     <label for="nome">Nome:</label>
+     <input type="text" name="nome" placeholder="Digite seu nome" required>
+     <!-- <br> -->
+     <label for="email">Email</label>
+     <input type="email" name="email" value="murillocbispo@gmail.com" placeholder="Digite seu E-mail" required>
+     <!-- <br> -->
+     <label for="telefone">Telefone:</label>
+     <input type="number" name="telefone" placeholder="11957430241" required>
+     <!-- <br> -->
+     <label for="estado">Estado</label>
+     <select name="estado">
+         <option value="AC">Acre</option>
+         <option value="AL">Alagoas</option>
+         <option value="AP">Amapá</option>
+         <option value="AM">Amazonas</option>
+         <option value="BA">Bahia</option>
+         <option value="CE">Ceará</option>
+         <option value="DF">Distrito Federal</option>
+         <option value="ES">Espírito Santo</option>
+         <option value="GO">Goiás</option>
+         <option value="MA">Maranhão</option>
+         <option value="MT">Mato Grosso</option>
+         <option value="MS">Mato Grosso do Sul</option>
+         <option value="MG">Minas Gerais</option>
+         <option value="PA">Pará</option>
+         <option value="PB">Paraíba</option>
+         <option value="PR">Paraná</option>
+         <option value="PE">Pernambuco</option>
+         <option value="PI">Piauí</option>
+         <option value="RJ">Rio de Janeiro</option>
+         <option value="RN">Rio Grande do Norte</option>
+         <option value="RS">Rio Grande do Sul</option>
+         <option value="RO">Rondônia</option>
+         <option value="RR">Roraima</option>
+         <option value="SC">Santa Catarina</option>
+         <option value="SP">São Paulo</option>
+         <option value="SE">Sergipe</option>
+         <option value="TO">Tocantins</option>
+     </select>
+     <label for="Cep">Cep:</label>
+     <input type="number" name="Cep" placeholder="Digite seu Cep" required>
+     <!-- <br> -->
+     <label for="Rua"></label>
+     <input type="text" name="endereço" placeholder="Digite sua Rua" required>
+     <!-- <br> -->
+     <label for="cidade">Cidade:</label>
+     <input type="text" name="cidade" placeholder="Digite sua cidade" required>
+     <!-- <br> -->
+     <label for="bairro">Bairro:</label>
+     <input type="text" name="bairro" placeholder="Digite seu Bairro" required>
+     <!-- <br> -->
+     <label for="numero">Número</label>
+     <input type="number" name="bairro" value="" placeholder="Digite o numero da sua Residencia" required>
+     <!-- <br> -->
+     <label for="complemento">Complemento:</label>
+     <input type="text" name="complemneto" placeholder="Digite seu complemento" required>
+     <br>
+     <label for="genero">Genero:</label>
+
+     <br>
+     <input type="radio" name="genero" value="masculino" required> Masculino
+     <br>
+     <input type="radio" name="genero" value="feminino" required> Feminino
+     <!-- obs: Estilos irão no css, o Br MORRERA em breve -->
+     <br>
+     <label for="gostos">Selecione os itens que você mais gosta:</label>
+     <br>
+     <input type="checkbox" name="gostos" value="musica" required>Músicas <br>
+     <input type="checkbox" name="gostos" value="teatro" required>Teatro <br>
+     <input type="checkbox" name="gostos" value="esporte" required>Esporte <br>
+     <input type="checkbox" name="gostos" value="outros" required>Outros <br>
+     <br>
+     <label for="data de nascimento">Data de Nascimneto</label>
+     <input type="date" placeholder="dd/mm/aaaa" required>
+     <br>
+     <label for="Comentarios">Comente o que achou disso tudo:</label>
+     <br>
+     <textarea name="" cols="30" rows="10"></textarea>
+     <input type="submit" name="enviar" value="Enviar">
+     </fieldset>
+ </form>   
+
+</body>
+</html>
